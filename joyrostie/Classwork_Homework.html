@@ -15,7 +15,7 @@
 
 <script type="text/javascript">
 	var start = 0;
-	var end = 31000;
+	var end = 31;
 
 	function timer(){
 		document.getElementById("one").innerHTML = start;
@@ -23,7 +23,9 @@
 		t_Id = setTimeout(function(){
 			timer()
 		}, 1000)
-		setTimeout(function(){clearTimeout(t_Id)}, end);
+		if (start == end){
+			clearTimeout(t_Id);
+		}
 	}
 	
 	function startT(){
