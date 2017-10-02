@@ -1,0 +1,47 @@
+<!-- Доработайте пример, 005_thisExample.html, при наведении мыши к одному из блоков, цвет блока должен измениться, на уникальный, такой которого еще нету у существующих блоков. Также выведите в блок текстовое оповещение о информации цвета, который используется для фона данного блока. При попытке закрыть вкладку, придупредите пользователя о том что информация будет утеряна. Используйте window.onload.  -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ключевое слово this</title>
+    <style>
+        div {
+            background-color: blue;
+            display: inline-block;
+            height: 150px;
+            width: 150px;
+            margin: 20px;
+            position: inherit;
+            overflow: scroll;
+        }
+    </style>
+    <script type="text/javascript" src="http://chir.ag/projects/ntc/ntc.js"></script>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <script>
+        var divArr = document.getElementsByTagName("div");
+        for (var i = 0; i < divArr.length; i++) {
+            divArr[i].onmouseenter = function () {
+                this.style.backgroundColor = randomColor();
+                this.innerHTML = randomColor ();
+                    window.onbeforeunload = function () {
+                    return "x";
+                    }
+            };
+        };
+        function randomColor() {
+            function random() {
+            var result = Math.floor(Math.random() * 255);
+            return result;
+            }
+        return 'rgb(' + random() + ',' + random() + ',' + random() + ')';
+        };
+
+    </script>
+</script>
+</body>
+</html>
