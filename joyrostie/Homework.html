@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWork</title>
+</head>
+<body>
+    <!-- back to top button; -->
+    <!-- drag; -->
+    <!-- создайте div, при клике на него, div начинает двигаться вправо, при клике на кнопку - останавливается, при попадании div к краю окна, он переходит к началу окна. -->
+    <button onclick="toBottom()">Go to bottom</button>
+	<button onclick="stopInt()">Stop</button><br /><br />
+	<div id='scroll'></div><br /><br /><br /><br /><br /><br />
+	<div id='drag'></div>
+    	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <button id ="bottom" onclick="toTop()">Go to top</button>
+    
+    <script type="text/javascript">
+    	window.addEventListener('load', function () {
+    		var div = document.getElementById("drag");
+    		div.style.cssText = "width: 100px;height: 100px;background: red;border-radius: 50%;position: absolute";
+			div.addEventListener ('mousedown', click);
+			div.addEventListener('mouseup', release);
+			
+			function click(e){
+				window.addEventListener('mousemove', divMove);
+				console.log ("push recorded");
+			};			
+			function release() {
+				window.removeEventListener('mousemove', divMove);
+				div.style.background = "red";
+				console.log ("release recorded");
+			};
+			function divMove(e) {
+				div.style.background = "green";
+				div.style.top = (e.clientY - 50) + "px";
+				div.style.left = (e.clientX - 50) + "px";
+			};
+    	});
+
+    	var div2 = document.getElementById("scroll");
+		div2.style.cssText = "width: 100px;height: 100px;background: blue;border-radius: 50%;position: absolute";
+		div2.onclick = function () {
+			console.log ("click recorded");	
+			var timerId = setInterval (scrollDiv, 1);
+			var pos = 10;
+			console.log (timerId);		
+			function scrollDiv() {
+				console.log ("setInterval recorded");
+				if (pos == (window.innerWidth - 100)) {
+					pos = 0;
+				}
+				else {
+					pos++;
+					div2.style.background = "green";
+					div2.style.left = pos + "px";
+				};
+			}
+			function stopInt() {
+				clearInterval(timerId);
+			}
+		}
+    	function toBottom() {
+    		bottom = document.getElementById("bottom");
+    		bottom.scrollIntoView (false);
+    	};
+    	function toTop() {
+    		window.scrollTo(0, 0);
+    	};
+
+    </script>
+
+</body>
+</html>
