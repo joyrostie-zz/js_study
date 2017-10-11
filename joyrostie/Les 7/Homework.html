@@ -1,0 +1,46 @@
+<!-- Создайте функцию, которая возвращает день недели для даты. -->
+<!-- День нужно возвратить в формате - понедельник имеет номер 1, вторник номер 2, …, воскресенье - номер 7. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DateTime</title>
+    <script>
+        var date = new Date();
+        function day() {
+    		var dateString = document.getElementById("form").value;
+			mil = Date.parse(dateString);
+			date.setTime(mil);
+			switch	(date.getDay()) {
+    			case 0:
+        			day = "Sunday!";
+        			break;
+    			case 1:
+			        day = "Monday!";
+			        break;
+			    case 2:
+			        day = "Tuesday!";
+			        break;
+			    case 3:
+			        day = "Wednesday!";
+			        break;
+			    case 4:
+			        day = "Thursday!";
+			        break;
+			    case 5:
+			        day = "Friday!";
+			        break;
+			    case  6:
+			        day = "Saturday!";
+			}
+			div = document.getElementById("div");
+			div.innerHTML = "The day is " + day;
+		}
+    </script>
+</head>
+<body>
+    <input type="text" value="2017-10-11" id="form"></input>
+    <button onclick="day()">Get day of the week</button> <br />
+    <div id ="div"></div>
+</body>
+</html>
