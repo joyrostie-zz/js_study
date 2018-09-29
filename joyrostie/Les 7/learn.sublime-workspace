@@ -1,0 +1,485 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"D",
+				"fancyDate"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"ue",
+				"user"
+			],
+			[
+				"q",
+				"question"
+			],
+			[
+				"fu",
+				"func"
+			],
+			[
+				"sa",
+				"say"
+			],
+			[
+				"app",
+				"applyAll"
+			],
+			[
+				"l",
+				"Last"
+			],
+			[
+				"co",
+				"count"
+			],
+			[
+				"ar",
+				"arguments"
+			],
+			[
+				"cal",
+				"calculate"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"new",
+				"newSurname"
+			],
+			[
+				"ne",
+				"newName"
+			],
+			[
+				"fi",
+				"firstName"
+			],
+			[
+				"va",
+				"vasya"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"me",
+				"methods"
+			],
+			[
+				"st",
+				"startingValue"
+			],
+			[
+				"sho",
+				"showName"
+			],
+			[
+				"usr",
+				"userClone"
+			],
+			[
+				"shoo",
+				"shooter"
+			],
+			[
+				"in",
+				"inArray"
+			],
+			[
+				"res",
+				"rest"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"buf",
+				"bufko"
+			],
+			[
+				"buff",
+				"buffalo"
+			],
+			[
+				"bu",
+				"makeBuffer"
+			],
+			[
+				"user",
+				"userClone"
+			],
+			[
+				"arr",
+				"newArr"
+			],
+			[
+				"pr",
+				"printList"
+			],
+			[
+				"ran",
+				"random"
+			],
+			[
+				"ra",
+				"random"
+			],
+			[
+				"Cl",
+				"className"
+			],
+			[
+				"cl",
+				"classes"
+			],
+			[
+				"ca",
+				"camelize"
+			],
+			[
+				"cla",
+				"classes"
+			],
+			[
+				"us",
+				"users"
+			],
+			[
+				"b",
+				"bufferillo"
+			],
+			[
+				"p",
+				"prompt"
+			],
+			[
+				"if",
+				"iife\timmediately-invoked function expression"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Untitled-1.html",
+			"settings":
+			{
+				"buffer_size": 301,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "hello.js",
+			"settings":
+			{
+				"buffer_size": 39,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "formatDate .js",
+			"settings":
+			{
+				"buffer_size": 791,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/learn/css/fancyDate.js",
+		"/D/learn/css/Untitled-1.html",
+		"/D/learn/css/styles2.css",
+		"/D/learn/css/navigation_bar.html",
+		"/D/learn/css/styles.scss",
+		"/D/learn/css/Untitled-2.html",
+		"/D/learn/css/ds.js",
+		"/C/Users/valentyn.dembitskyi/Documents/html.html",
+		"/D/learn/css/alert.js",
+		"/D/learn/css/alert",
+		"/D/learn/css/_part.scss",
+		"/D/learn/css/styles.css",
+		"/D/learn/css/_part.sass",
+		"/D/learn/css/styles.sass",
+		"/D/learn/css/css.css",
+		"/D/learn/css/css.html",
+		"/C/Users/valentyn.dembitskyi/AppData/Roaming/Sublime Text 3/Packages/User/SublimeServer.sublime-settings",
+		"/D/Games/Remote Desktop Manager Enterprise 13.6.2.0/Keymaker-DVT/dvt.nfo"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"this.birthday.getFullYear is not a function",
+			"alert",
+			"str3",
+			"0",
+			"Василий"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Untitled-1.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "hello.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "formatDate .js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								785,
+								785
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "learn.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
