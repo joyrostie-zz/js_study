@@ -7,7 +7,7 @@ function fancyDate(date) {
     if ( arr[i] < 10 ) arr[i] = ('0' + arr[i]);
   }
 
-  arr[2] = arr[2].substring(2, 4)
+  arr[2] = arr[2].substring(2, 4);
   let str = arr.join('.')
   return str;
 }
